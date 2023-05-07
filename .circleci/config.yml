@@ -12,7 +12,7 @@
                     name: Docker Version Check
                     command: |
                         docker --version
-                        service docker status
+                       
               
     workflows:
             Test:
