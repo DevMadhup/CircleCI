@@ -5,10 +5,11 @@ jobs:
     steps:
         - checkout
         - run:
+            name: Python
             command: | 
               python --version
 
 workflows:
     Test:
-        jobs:
-            - Docker
+       jobs:
+           - Docker
