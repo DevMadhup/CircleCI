@@ -6,7 +6,7 @@
             steps:
                 - checkout
                 - run: echo "Hello"
-     workflows:
+    workflows:
         Test:
             jobs:
                 - Version
