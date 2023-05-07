@@ -1,6 +1,6 @@
 version: 2.1
 jobs:
-    Docker:
+    docker:
         - image: cimg/python:3.11.3
     steps:
         - checkout
@@ -10,6 +10,6 @@ jobs:
               python --version
 
 workflows:
-    Test:
-       jobs:
-           - Docker
+  Test:
+     jobs:
+         - docker
