@@ -2,11 +2,11 @@
     jobs:
      
      Version:
-      docker:
-          - image: cimg/python:3.11.3
-      steps:
-          - checkout
-          - run: echo "Hello"
+       docker:
+           - image: cimg/python:3.11.3
+       steps:
+           - checkout
+           - run: echo "Hello"
      workflows:
-     test:
-       - Version
+      test:
+           - Version
