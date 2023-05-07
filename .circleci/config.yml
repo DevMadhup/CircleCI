@@ -6,10 +6,6 @@
             steps:
                 - checkout
                 - run: docker build . -t todoapp
-                - run: 
-                    name: Docker Version Check
-                    command: |
-                        docker --version
                        
               
     workflows:
