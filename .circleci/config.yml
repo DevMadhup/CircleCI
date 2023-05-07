@@ -9,4 +9,5 @@
            - run: echo "Hello"
      workflows:
       test:
+       jobs:
            - Version
