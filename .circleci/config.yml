@@ -9,5 +9,6 @@ version: 2.1
               python --version
 
 workflows:
-  jobs:
+  Test:
+    jobs:
         - Docker
