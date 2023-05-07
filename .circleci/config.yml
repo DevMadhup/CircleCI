@@ -9,6 +9,6 @@ jobs:
               python --version
 
 workflows:
-  Test:
-    jobs:
-        - Docker
+    Test:
+        jobs:
+            - Docker
