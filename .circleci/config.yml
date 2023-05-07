@@ -10,11 +10,10 @@
                     version: 20.10.14
                 - run: 
                     name: Docker Version Check
-                    command: docker --version
-                - run:
-                    name: Docker Image Build
                     command: |
-                        docker build . -t todo_app --name python-django-app-image
+                        docker --version
+                        service docker status
+              
     workflows:
             Test:
                 jobs:
