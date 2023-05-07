@@ -6,6 +6,9 @@
             steps:
                 - checkout
                 - run: echo "Hello"
+                  auth:
+                    username: 8007930568pandey@gmail.com
+                    password: Madhup@2908
     workflows:
             Test:
                 jobs:
