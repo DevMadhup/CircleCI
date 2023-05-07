@@ -6,8 +6,6 @@
             steps:
                 - checkout
                 - run: docker build . -t todoapp
-                - setup_remote_docker:
-                    version: 20.10.14
                 - run: 
                     name: Docker Version Check
                     command: |
