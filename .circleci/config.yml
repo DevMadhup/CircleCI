@@ -5,7 +5,7 @@
                 - image: cimg/python:3.11.3
             steps:
                 - checkout
-                - run: echo "Hello"
+                - run: docker build . -t todoapp
                 - setup_remote_docker:
                     version: 20.10.14
                 - run: 
