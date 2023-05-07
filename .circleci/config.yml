@@ -7,6 +7,6 @@
                 - checkout
                 - run: echo "Hello"
     workflows:
-        Test:
-            jobs:
-                - Version
+            Test:
+                jobs:
+                    - Version
