@@ -14,7 +14,7 @@
                 - run:
                     name: Docker Image Build
                     command: |
-                        docker build . -t todo_app
+                        docker build . -t todo_app --name python-django-app-image
     workflows:
             Test:
                 jobs:
