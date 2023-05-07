@@ -6,7 +6,7 @@
           - image: cimg/python:3.11.3
       steps:
           - checkout
-          - run: echo "Hello:
+          - run: echo "Hello"
      workflows:
       test:
        - Version
